@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 17 Oct 2022 04:35:10 GMT
+// Generated on Mon, 17 Oct 2022 05:43:14 GMT
 
 
 
@@ -19,5 +19,9 @@ class  {
     static const colorGray700 = Color(0xFF1C1C1F);
     static const colorGray900 = Color(0xFF121214);
     static const colorPurple500 = Color(0xFF8B5CF6);
+    static const colorPurpleGray100 = Color(0xFF453667);
     static const colorWhite900 = Color(0xFFFFFFFF);
+    static const sizes2 = 8;
+    static const sizes4 = 16;
+    static const sizes8 = 32;
 }
