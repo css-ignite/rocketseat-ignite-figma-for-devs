@@ -1,2 +1,4 @@
+build/flutter/* linguist-vendored
+
 *.dart linguist-detectable=false
 *.js linguist-detectable=true
