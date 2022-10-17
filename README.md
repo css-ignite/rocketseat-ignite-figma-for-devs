@@ -236,4 +236,14 @@ No plugin Design Tokens:
   - Adicione a Key gerada
   - Adicione o commit message
 
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/12506432/196099035-b60a7c09-9bf5-4ebe-b126-640fa8870959.png">
+
 Após salvar, o github irá rodar a Action e gerar os arquivos
+
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/12506432/196099159-5bef8489-dd6f-4fd2-a67c-acff6e8a0549.png">
+
+Será gerado um Pull-Request após a conclusão com os arquivos alterados
+
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/12506432/196099308-03ae366d-a5e2-46e6-98ca-8deaa7299f95.png">
+
+
