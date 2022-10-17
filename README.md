@@ -1,5 +1,7 @@
 # Ignite - Figma for Devs
-
+Curso disponibilizado pela [RocketSeat](https://www.rocketseat.com.br/)
+<p>Tema: Figma for Devs</p> 
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/claudneysessa/RocketSeat-ignite-lab-design-system" />
 ## Install style-dictionary
 
 ```bash
@@ -246,4 +248,30 @@ Será gerado um Pull-Request após a conclusão com os arquivos alterados
 
 <img width="1438" alt="image" src="https://user-images.githubusercontent.com/12506432/196099308-03ae366d-a5e2-46e6-98ca-8deaa7299f95.png">
 
+## Where to find me
 
+<div>
+    <a href="https://www.youtube.com/channel/UC52P3HVpmOMHjkmIhcjLRyQ" target="_blank">
+      <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank">
+    </a>
+    <a href="https://instagram.com/claudneysessa" target="_blank">
+      <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
+    </a>
+    <a href = "mailto:claudneysartisessa@gmail.com">
+      <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+    </a>
+    <a href="https://www.linkedin.com/in/claudneysessa/" target="_blank">
+      <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+    </a>
+    <a href="https://medium.com/@claudneysartisessa" target="_blank">
+      <img alt="Medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
+    </a>
+</div>
+
+## Veja o meu Perfil no Github
+
+https://github.com/claudneysessa
+
+## Contact
+ - Instagram: [https://www.instagram.com/claudneysessa/](https://www.instagram.com/claudneysessa/)
+ - Linkedin: [https://www.linkedin.com/in/claudneysessa/](https://www.linkedin.com/in/claudneysessa/)
