@@ -172,3 +172,57 @@ Após aplicada a configuração, o style-dictionary gera os arquivos conforme co
 node_modules
 input/*.json
 ```
+
+### Configurar o GitHub para integração direto do figma
+
+Na página do GitHub vá no seu perfil e escolha a opção:
+
+- perfil->Settings->Developer Settings->Personal Access Token
+- Gere um Token e guarde ele para iniciar a integração
+
+#### Criar arquivo de configuração para o workflow do processo de publicação dos tokens
+
+- github/workflows/update-tokens.yml
+
+```yml
+name: Generate design tokens
+
+on:
+  repository_dispatch:
+    types: update-tokens
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create input JSON
+        id: create-json
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          name: ${{ github.event.client_payload.filename }}
+          json: ${{ github.event.client_payload.tokens }}
+          dir: 'input'
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "style: Update design tokens"
+          title: ${{ github.event.client_payload.commitMessage || 'Update design tokens' }}
+          body: "Design tokens have been updated via Figma and need to be reviewed."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: 'main'
+```
