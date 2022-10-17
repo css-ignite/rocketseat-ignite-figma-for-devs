@@ -156,12 +156,19 @@ Após aplicada a configuração, o style-dictionary gera os arquivos conforme co
 - tokens-js.js
 - tokens-flutter.dart
 
-# Iniciando a publicação
+## Iniciando a publicação
 
-## Ajustando o .gitignore
+---
+
+### Ajustando o .gitignore
 
 - Removo a pasta node_modules
   - node_modules
 - Removo a pasta input e todos os arquivos que json dentro dela
   - input/*.json
 - Adiciono na pasta input o arquivo .gitkeep para a pasta continuar a existir
+
+```gitignore
+node_modules
+input/*.json
+```
