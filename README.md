@@ -226,3 +226,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_NAME: 'main'
 ```
+
+### Configurando o figma
+
+No plugin Design Tokens:
+
+- Adicione a url do GitHub
+  - [https://api.github.com/repos/claudneysessa/figma-tokens/dispatches](https://api.github.com/repos/claudneysessa/figma-tokens/dispatches)
+  - Adicione a Key gerada
+  - Adicione o commit message
+
+Após salvar, o github irá rodar a Action e gerar os arquivos
