@@ -16,14 +16,6 @@
         "destination": "tokens-js.js",
         "format": "javascript/module-flat"
       }]
-    },
-    "flutter": {
-      "transformGroup": "flutter",
-      "buildPath": "build/flutter/",
-      "files": [{
-        "destination": "tokens-flutter.dart",
-        "format": "flutter/class.dart"
-      }]
     }
   }
 }
