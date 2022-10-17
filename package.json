@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "style-dictionary": "^3.7.1"
-  }
+  },
+  "name": "figma-tokens",
+  "description": "Projeto criado para estudos da exportação de tokens do figma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudneysessa/figma-tokens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudneysessa/figma-tokens/issues"
+  },
+  "homepage": "https://github.com/claudneysessa/figma-tokens#readme"
 }
