@@ -6,6 +6,32 @@ Curso disponibilizado pela [RocketSeat](https://www.rocketseat.com.br/)
 <p>Tema: Figma for Devs</p> 
 <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/claudneysessa/RocketSeat-ignite-lab-design-system" />
 
+## Projeto do Figma
+
+- [https://www.figma.com/file/vAYwZTp7TBieTTzSQv8yBt/Ignite---Figma-for-Devs](https://www.figma.com/file/vAYwZTp7TBieTTzSQv8yBt/Ignite---Figma-for-Devs)
+
+![image](https://user-images.githubusercontent.com/12506432/196317502-3c0be318-79ff-496d-b48f-1aa63d2d115b.png)
+
+![image](https://user-images.githubusercontent.com/12506432/196317614-f8836421-68ef-4852-954b-cc18298c70b1.png)
+
+## Exportando o Design do Figma
+
+Adicione o plugin Design Tokens ao seu projeto do Figma
+
+![image](https://user-images.githubusercontent.com/12506432/196318258-e0417b78-7260-474f-b6ab-7361f3fe48f9.png)
+
+Marque os elementos que deseja explortar e clique em Save & Export
+
+![image](https://user-images.githubusercontent.com/12506432/196318355-d4249698-7d9c-46c4-a015-caeb0db8770f.png)
+
+Salve na pasta do projeto em uma pasta chamada input
+
+## Iniciando o projeto
+
+```bash
+npm init -y
+```
+
 ## Configurando style-dictionary
 
 - [https://github.com/amzn/style-dictionary](https://github.com/amzn/style-dictionary)
@@ -190,7 +216,7 @@ Na página do GitHub vá no seu perfil e escolha a opção:
 
 #### Criar arquivo de configuração para o workflow do processo de publicação dos tokens
 
-- github/workflows/update-tokens.yml
+- .github/workflows/update-tokens.yml
 
 ```yml
 name: Generate design tokens
@@ -237,7 +263,7 @@ jobs:
 
 ### Configurando o figma
 
-No plugin Design Tokens:
+### No plugin Design Tokens:
 
 - Adicione a url do GitHub
   - [https://api.github.com/repos/claudneysessa/figma-tokens/dispatches](https://api.github.com/repos/claudneysessa/figma-tokens/dispatches)
