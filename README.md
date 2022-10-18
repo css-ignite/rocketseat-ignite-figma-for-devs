@@ -1,8 +1,14 @@
+![Banner Ignite - Forgma for devs](https://user-images.githubusercontent.com/12506432/196316375-4930864d-f51f-44ca-a42f-1f1761fd5cb4.png)
+
 # Ignite - Figma for Devs
+
 Curso disponibilizado pela [RocketSeat](https://www.rocketseat.com.br/)
 <p>Tema: Figma for Devs</p> 
 <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/claudneysessa/RocketSeat-ignite-lab-design-system" />
-## Install style-dictionary
+
+## Configurando style-dictionary
+
+- [https://github.com/amzn/style-dictionary](https://github.com/amzn/style-dictionary)
 
 ```bash
 npm install style-dictionary
@@ -160,8 +166,6 @@ Após aplicada a configuração, o style-dictionary gera os arquivos conforme co
 
 ## Iniciando a publicação
 
----
-
 ### Ajustando o .gitignore
 
 - Removo a pasta node_modules
@@ -181,6 +185,8 @@ Na página do GitHub vá no seu perfil e escolha a opção:
 
 - perfil->Settings->Developer Settings->Personal Access Token
 - Gere um Token e guarde ele para iniciar a integração
+
+![image](https://user-images.githubusercontent.com/12506432/196316838-92036370-d0f4-4b2f-a38a-f43a048f0dee.png)
 
 #### Criar arquivo de configuração para o workflow do processo de publicação dos tokens
 
