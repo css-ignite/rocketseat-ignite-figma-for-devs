@@ -1,6 +1,6 @@
-![Banner Ignite - Forgma for devs](https://user-images.githubusercontent.com/12506432/196316375-4930864d-f51f-44ca-a42f-1f1761fd5cb4.png)
-
 # Ignite - Figma for Devs
+
+![Banner Ignite - Forgma for devs](https://user-images.githubusercontent.com/12506432/196316375-4930864d-f51f-44ca-a42f-1f1761fd5cb4.png)
 
 Curso disponibilizado pela [RocketSeat](https://www.rocketseat.com.br/)
 <p>Tema: Figma for Devs</p> 
